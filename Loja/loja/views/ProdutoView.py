@@ -9,7 +9,7 @@ def list_produto_view(request, id=None):
     categoria = request.GET.get("categoria")
     fabricante = request.GET.get("fabricante")
     dias = request.GET.get("dias")
-    pprodutos = produtos.filter(Produto__contains=produto )
+    produtos = Produto.objects.all()
     if dias is not None:
         now = timezone.now()
         now = now - timedelta(days = int(dias))
