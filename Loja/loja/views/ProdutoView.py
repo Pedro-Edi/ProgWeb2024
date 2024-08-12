@@ -1,3 +1,5 @@
+from django.shortcuts import render # Retire from django.http import HttpResponse
+from loja.models import Produto
 from django.http import HttpResponse
 from loja.models import Produto
 from datetime import timedelta, datetime
@@ -27,4 +29,6 @@ def list_produto_view(request, id=None):
     if id is not None:
         produtos = produtos.filter(id=id)
     print(produtos)
-    return HttpResponse('<h1>Produto de id %s!</h1>' % id)
+    context = {'produtos': produtos}
+    return render(request, template_name='produto/produto.html',
+context=context, status=200)
