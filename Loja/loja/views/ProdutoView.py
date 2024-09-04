@@ -159,5 +159,5 @@ def create_produto_view(request, id=None):
         except Exception as e:
             print("Erro inserindo produto: %s" % e)
         return redirect("/produto")
-    co
+    context = {'fabricantes' : Fabricantes, 'categorias' : Categorias}
     return render(request, template_name='produto/produto-create.html',status=200,context=context)
