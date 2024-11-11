@@ -1,3 +1,4 @@
+from django.contrib.auth.decorators import login_required
 from django.shortcuts import render,redirect # Retire from django.http import HttpResponse
 from loja.models import Produto, Fabricante, Categoria
 from django.http import HttpResponse
@@ -33,6 +34,8 @@ def list_produto_view(request, id=None):
     print(produtos)
     context = {'produtos': produtos}
     return render(request, template_name='produto/produto.html',context=context, status=200)
+
+@login_required
 def edit_produto_view(request, id=None):
     produtos = Produto.objects.all()
     if id is not None:
