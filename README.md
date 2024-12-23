@@ -54,7 +54,8 @@
 ## 2. Testar o Bot no Servidor Discord
 - Para testar o bot no discord , basta digitar "/" e selecionar aquela funcionalidade que você desejar.
 
-## AUTORES
+
+# AUTORES
 
 | [<img src="https://avatars.githubusercontent.com/u/124364476?v=4" width=150><br><sub>David Paiva</sub>](https://github.com/davidmtg) | [<img src="https://avatars.githubusercontent.com/u/107737145?v=4" width=150><br><sub>Pedro Edi</sub>](https://github.com/Pedro-Edi) |
 | :---: | :---: |
