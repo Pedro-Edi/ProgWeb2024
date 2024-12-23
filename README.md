@@ -33,8 +33,8 @@
 - Acesse o site oficial: Node.js
 - Baixe uma versão do node.js ( se possível a mais atualizada )
 - Após a instalação, confirme se o Node.js está instalado corretamente executando os comandos:
-  -node -v
-  -npm -v
+  - node -v
+  - npm -v
 
 ## 3. Inicializar o Bot com Python
 - Instale o Python em seu computador se ainda não tiver (você pode fazer isso através do site oficial do Python).
