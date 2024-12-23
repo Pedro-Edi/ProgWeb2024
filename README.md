@@ -27,7 +27,6 @@
 
 ## 1. Inicializar o Bot com Python
 - Instale o Python em seu computador se ainda não tiver (você pode fazer isso através do site oficial do Python).
-- Crie um novo arquivo Python em branco e salve-o com um nome (por exemplo, index.py).
 
 ## 2. Instale as Bibliotecas Discord.py
 - Abra o terminal ou prompt de comando e instale a biblioteca discord.py com o comando:
