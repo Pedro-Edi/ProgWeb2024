@@ -23,7 +23,7 @@
 - Selecione as permissões desejadas e gere o link para adicionar o bot ao seu servidor.
 - Entre na url desse link e selecione o servidor que ele ficará.
 
-# Como Usar o Bot no Seu Servidor Discord
+# Como configurar o Bot para rodar Seu Servidor Discord
 
 ## 1. Inicializar o Bot com Python
 - Instale o Python em seu computador se ainda não tiver (você pode fazer isso através do site oficial do Python).
@@ -32,9 +32,10 @@
 - Abra o terminal ou prompt de comando e instale a biblioteca discord.py com o comando:
   - pip install discord.py
 
-# Inicializar o bot com um prefixo
- ## 1. Configurar token
- - Vá até o arquivo .env , se não tiver crie um , e dentro dele precisa estar "TOKEN = {seu_token}" , no caso o seu_token foi aquele você tem configurou.
+ ## 3. Configurar token
+ - Vá até o arquivo .env , se não tiver crie um , e dentro dele precisa estar "TOKEN = {seu_token}" , no caso o "seu_token" foi aquele você configurou.
+   -###obs: não precisa conter aspas no token.
 
-## 2. Testar o Bot no Servidor Discord
+# Inicializar o bot com um prefixo
+## 1. Testar o Bot no Servidor Discord
 - Para testar o bot no discord , basta digitar "/" e selecionar aquela funcionalidade que você desejar.
