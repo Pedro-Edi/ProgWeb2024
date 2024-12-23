@@ -8,7 +8,7 @@
 
 ## 3. Criar um Novo Aplicativo Discord
 - Vá ao Portal de Desenvolvedores Discord e clique em "New Application".
-- Defina um nome para seu aplicativo Discord (por exemplo, "MeuBot.
+- Defina um nome para seu aplicativo Discord (por exemplo, "MeuBot").
 
 ## 4. Criar um Bot
 - Clique em "Bot" na coluna da esquerda.
@@ -31,12 +31,7 @@
 
 ## 2. Instale as Bibliotecas Discord.py
 - Abra o terminal ou prompt de comando e instale a biblioteca discord.py com o comando:
-  - pip install discord.py 
-
-## 3. Criar o Código do Bot
-- No seu arquivo index.py, adicione o seguinte código básico para inicializar o bot:
-  - import discord
-  - from discord.ext import commands
+  - pip install discord.py
 
 # Inicializar o bot com um prefixo
  ## 1. Configurar token
