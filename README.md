@@ -31,7 +31,7 @@
 
 ## 2. Instalar o Node.js (Pré-requisito para o Discord Bot)
 - Acesse o site oficial: Node.js
-- Baixe uam versão do node.js ( se possível a mais atualizada )
+- Baixe uma versão do node.js ( se possível a mais atualizada )
 - Após a instalação, confirme se o Node.js está instalado corretamente executando os comandos:
   -node -v
   -npm -v
